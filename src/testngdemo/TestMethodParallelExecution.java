@@ -28,6 +28,7 @@ public class TestMethodParallelExecution {
 			System.out.println("Current Date and time is " + new Date() + " for browser name " + browser);
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			System.out.println("Current Date and time is " + new Date() + " for browser name " + browser);
 			WebDriverManager.firefoxdriver().setup();

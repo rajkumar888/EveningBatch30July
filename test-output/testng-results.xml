@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16494" started-at="2022-11-12T13:43:30Z" finished-at="2022-11-12T13:43:46Z">
+    <groups>
+    </groups>
+    <test name="Test_chrome" duration-ms="12058" started-at="2022-11-12T13:43:30Z" finished-at="2022-11-12T13:43:42Z">
+      <class name="testngdemo.TestMethodParallelExecution">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngdemo.TestMethodParallelExecution@6e1ec318]" name="setUp" is-config="true" duration-ms="4902" started-at="2022-11-12T21:43:30Z" finished-at="2022-11-12T21:43:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testngdemo.TestMethodParallelExecution@6e1ec318]" name="login" duration-ms="1004" started-at="2022-11-12T21:43:35Z" finished-at="2022-11-12T21:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngdemo.TestMethodParallelExecution@6e1ec318]" name="tearDown" is-config="true" duration-ms="6131" started-at="2022-11-12T21:43:36Z" finished-at="2022-11-12T21:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngdemo.TestMethodParallelExecution -->
+    </test> <!-- Test_chrome -->
+    <test name="Test_firefox" duration-ms="14975" started-at="2022-11-12T13:43:30Z" finished-at="2022-11-12T13:43:45Z">
+      <class name="testngdemo.TestMethodParallelExecution">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngdemo.TestMethodParallelExecution@2286778]" name="setUp" is-config="true" duration-ms="7844" started-at="2022-11-12T21:43:30Z" finished-at="2022-11-12T21:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testngdemo.TestMethodParallelExecution@2286778]" name="login" duration-ms="1099" started-at="2022-11-12T21:43:38Z" finished-at="2022-11-12T21:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngdemo.TestMethodParallelExecution@2286778]" name="tearDown" is-config="true" duration-ms="6012" started-at="2022-11-12T21:43:39Z" finished-at="2022-11-12T21:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngdemo.TestMethodParallelExecution -->
+    </test> <!-- Test_firefox -->
+    <test name="Test_edge" duration-ms="16494" started-at="2022-11-12T13:43:30Z" finished-at="2022-11-12T13:43:46Z">
+      <class name="testngdemo.TestMethodParallelExecution">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testngdemo.TestMethodParallelExecution@5f9d02cb]" name="setUp" is-config="true" duration-ms="9604" started-at="2022-11-12T21:43:30Z" finished-at="2022-11-12T21:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testngdemo.TestMethodParallelExecution@5f9d02cb]" name="login" duration-ms="1026" started-at="2022-11-12T21:43:39Z" finished-at="2022-11-12T21:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngdemo.TestMethodParallelExecution@5f9d02cb]" name="tearDown" is-config="true" duration-ms="5844" started-at="2022-11-12T21:43:40Z" finished-at="2022-11-12T21:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngdemo.TestMethodParallelExecution -->
+    </test> <!-- Test_edge -->
+  </suite> <!-- Suite -->
+</testng-results>
